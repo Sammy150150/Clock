@@ -1,9 +1,7 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* This ensures the content is centered vertically */
-  margin: 0;
+html, body {
+  display: grid;
+  place-items: center;
+  height: 100%;
 }
 
 #header {
@@ -13,9 +11,5 @@ body {
   border-radius: 20px;
   font-size: 125px;
   padding: 20px;
-  width: 550px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  width: clamp(200px, 90%, 600px);
 }
