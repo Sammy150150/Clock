@@ -7,7 +7,7 @@ html, body {
 #header {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  border: 6px solid black;
+  border: 6px solid blue;
   border-radius: 20px;
   font-size: 125px;
   padding: 20px;
